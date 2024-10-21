@@ -1,0 +1,33 @@
+# Ignore build directories
+build*/
+*.o
+*.a
+*.so
+*.d
+*.dSYM/
+*.obj
+*.dll
+*.exe
+*.log
+Makefile
+*.user
+.qmake.stash
+.qmake.cache
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Ignore QtCreator specific files
+.pro.user*
+.qbs.user*
+.cproject
+.settings/
+*.autosave
+.idea/
+
+# Ignore cmake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeLists.txt.user
+*.cbp
